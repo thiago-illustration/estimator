@@ -92,7 +92,7 @@ testability: Requires mock auth server
 Login UI (Frontend - Bob): 3 points
 ```
 
-## �� Data Export
+## 📄 Data Export
 
 Estimations are automatically saved to the `estimations/` folder with:
 
@@ -140,7 +140,7 @@ For questions or issues:
 - Contact the development team
 - Check the saved estimation files for reference
 
-## �� Updates
+## 🔄 Updates
 
 To update the tool:
 
