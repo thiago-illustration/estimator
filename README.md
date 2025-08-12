@@ -101,6 +101,77 @@ Estimations are automatically saved to the `estimations/` folder with:
 - All task details and notes
 - Team assignments and estimates
 
+### Example Generated File
+
+```json
+{
+  "name": "User Authentication System",
+  "tasks": [
+    {
+      "name": "Login API",
+      "category": "Backend",
+      "assignedTo": "dev-1",
+      "factors": {
+        "uncertainty": 1,
+        "complexity": 2,
+        "testability": 1,
+        "legacyImpact": 0,
+        "integrationDifficulty": 0,
+        "refactorEffort": 0,
+        "dependencies": 0,
+        "requirementVolatility": 0
+      },
+      "notes": {
+        "uncertainty": "Need to clarify OAuth2 requirements",
+        "complexity": "Implementing JWT tokens",
+        "testability": "Requires mock auth server setup",
+        "legacyImpact": "",
+        "integrationDifficulty": "",
+        "refactorEffort": "",
+        "dependencies": "",
+        "requirementVolatility": ""
+      },
+      "rawScore": 2.4,
+      "fibonacciEstimate": 3
+    }
+  ],
+  "developers": [
+    {
+      "id": "dev-1",
+      "name": "Alice",
+      "role": "Backend",
+      "capacity": 4
+    }
+  ],
+  "totalPoints": 3,
+  "estimatedDays": 1.5,
+  "estimatedDeliveryDate": "2025-08-13T00:00:00.000Z",
+  "parallelEstimate": {
+    "totalDays": 1,
+    "deliveryDate": "2025-08-13T00:00:00.000Z",
+    "breakdown": {
+      "dev-1": {
+        "name": "Alice",
+        "days": 1,
+        "points": 3
+      }
+    }
+  },
+  "createdAt": "2025-08-12T16:58:13.000Z",
+  "version": "1.0",
+  "metadata": {
+    "tool": "Epic Estimation Tool",
+    "generatedAt": "2025-08-12T16:58:13.000Z",
+    "totalTasks": 1,
+    "totalPoints": 3,
+    "estimatedDays": 1.5,
+    "estimatedDeliveryDate": "2025-08-12T16:58:13.000Z"
+  }
+}
+```
+
+The file is named with the pattern: `epic-name-YYYY-MM-DD-HH-MM-SS.json`
+
 ## ⚙️ Configuration
 
 ### Weights
