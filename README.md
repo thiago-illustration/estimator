@@ -21,7 +21,7 @@ A powerful CLI tool for estimating software development epics using Fibonacci st
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/thiago-illustration/estimator.git
 cd estimation
 
 # Install dependencies
