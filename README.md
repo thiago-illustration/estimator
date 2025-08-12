@@ -70,6 +70,7 @@ bun index.ts
 
 ## 📊 Output Example
 
+```bash
 === Epic Summary ===
 Epic: User Authentication System
 Total Tasks: 5
@@ -89,6 +90,7 @@ Login API (Backend - Alice): 5 points
 complexity: Need to implement OAuth2
 testability: Requires mock auth server
 Login UI (Frontend - Bob): 3 points
+```
 
 ## �� Data Export
 
